@@ -8,7 +8,7 @@
     "background": {
         "service_worker": "service-worker.js"       
     },
-    "browser_action": {
+    "action": {
         "default_icon": "icon.png"
     },
     "icons": {
