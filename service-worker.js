@@ -1,4 +1,3 @@
-
 var searchThis = {
     "id": "selectedText",
     "title": "Search on YouTube",
