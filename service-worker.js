@@ -9,9 +9,8 @@ function contextMenuOnClick(clickedItem) {
     searchTerm = searchTerm.replace(/\#/g, '%23');
     var address = "https://www.youtube.com/results?search_query=" + searchTerm;
 
-    chrome.windows.create({
-        url: address,
-        type: "normal"
+    chrome.tabsa.create({
+        url: address
     });
 }
 
