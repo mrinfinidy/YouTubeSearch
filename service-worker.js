@@ -4,7 +4,7 @@ var searchThis = {
     contexts: ["selection"],
 };
 
-const contextMenuOnClick = (clickedItem) => {
+function contextMenuOnClick(clickedItem) {
     var searchTerm = encodeURI(clickedItem.selectionText);
     searchTerm = searchTerm.replace(/\#/g, '%23');
     var address = "https://www.youtube.com/results?search_query=" + searchTerm;
