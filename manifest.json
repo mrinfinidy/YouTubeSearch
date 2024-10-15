@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "YouTube Quick Search",
-    "version": "2.0",
+    "name": "Video Quick Search",
+    "version": "2.1",
     "permissions": [
         "contextMenus"
     ],
